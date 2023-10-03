@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <title>Número Secreto</title>
+</head>
+<body>
+    <h1>Acerte o número secreto <button id="mic" class="mic"><i class="fa-solid fa-microphone"></i></button></h1>
+    <h3>O número está entre <span id="lowest-value">0</span> e <span id="highest-value">100</span></h3>
+    <div id="guess" class="message">
+        <!-- <div>Você disse:</div>
+        <span class="box">20</span>
+        <div>O número é maior <i class="fa-solid fa-arrow-up"></i></div> -->
+    </div>
+    <script src="./js/drawNumber.js"></script>
+    <script src="./js/voiceRecognition.js"></script>
+    <script src="./js/verification.js"></script>
+</body>
+</html>

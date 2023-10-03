@@ -1,0 +1,75 @@
+:root {
+    --main-font: 'Onest', sans-serif;
+    --bg-color: #116A7B;
+    --bg-game-over: #c76767;
+    --primary-color: #FFF5E0;
+    --secondary-color: #09363f;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: 100;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+h1 {
+    font-size: 5em;
+}
+
+.mic {
+    color: var(--bg-color);
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    font-size: .75em;
+    padding: .2em .4em;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.mic:hover {
+    color: inherit;
+    background-color: inherit;
+
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.message {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    display: inline-block;
+    font-size: 3em;
+    border: 2px solid var(--primary-color);
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-restart {
+    font-family: var(--main-font);
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    color: var(--secondary-color);
+    padding: .5em 1em;
+    margin-top: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
