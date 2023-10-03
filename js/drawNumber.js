@@ -1,9 +1,9 @@
-const lowestValue = 1;
-const highestValue = 100;
+const lowestValue = 200;
+const highestValue = 900;
 const secretNumber = drawRandomNumber();
 
 function drawRandomNumber() {
-    return parseInt(Math.random() * highestValue + 1);
+    return parseInt(Math.random() * (highestValue - lowestValue) + lowestValue);
 }
 
 console.log(secretNumber);
