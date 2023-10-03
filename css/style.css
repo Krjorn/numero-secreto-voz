@@ -31,13 +31,11 @@ h1 {
     font-size: .75em;
     padding: .2em .4em;
     cursor: pointer;
-    transition: .2s;
 }
 
-.mic:hover {
+.mic:active {
     color: inherit;
     background-color: inherit;
-
 }
 
 h2 {
